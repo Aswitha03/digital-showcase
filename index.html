@@ -1,0 +1,601 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./images/movie logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Flix
+    </title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#home" class="logo">
+                    <i class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#character">Characters</a></li>
+                    <li><a href="#trailers">Trailers</a></li>
+                    <li><a href="#quoteoftheday">Quote of the day</a></li>
+                    <li><a href="#triviaquiz">Trivia quiz</a></li>
+                    <li>
+                        <a href="#home" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- MOBILE MENU TOGGLE -->
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <!-- HERO SLIDE -->
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="https://www.pngarts.com/files/9/Black-Panther-PNG-Image-Free-Download.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Black Panther
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>134 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>16+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Marvel Studios “Black Panther” follows T’Challa who, after the death of his father, the King of Wakanda, returns home to the isolated, technologically advanced African nation to succeed to the throne and take his rightful place as king. But when a powerful old enemy reappears, T’Challa’s mettle as king—and Black Panther—is tested when he is drawn into a formidable conflict that puts the fate of Wakanda and the entire world at risk. Faced with treachery and danger, the young king must rally his allies and release the full power of Black Panther to defeat his foes and secure the safety of his people and their way of life.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="https://th.bing.com/th/id/OIP.Ct8OOUl-438wYAzc4O38vQHaHU?rs=1&pid=ImgDetMain" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Avengers-Infinity War
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>146 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>13+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Avengers: Infinity War is an action-adventure, fantasy, and science fiction film. The movie features the Avengers and their Super Hero allies battling the powerful Thanos, who is on a mission to collect all six Infinity Stones and use them to inflict his twisted will on reality. The fate of Earth and existence hangs in the balance
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+                <!-- SLIDE ITEM -->
+                <div class="hero-slide-item">
+                    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6855f99a-529e-474b-be73-aad11412f2a1/dd27u2u-dac84e1d-067f-4f8f-a130-69d949f3761a.png/v1/fill/w_512,h_513/avengers_endgame_movie_folder_icon_by_zenoasis_dd27u2u-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEzIiwicGF0aCI6IlwvZlwvNjg1NWY5OWEtNTI5ZS00NzRiLWJlNzMtYWFkMTE0MTJmMmExXC9kZDI3dTJ1LWRhYzg0ZTFkLTA2N2YtNGY4Zi1hMTMwLTY5ZDk0OWYzNzYxYS5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.QRsKqlRJwIsu-ViycG2YdFyVLXpe8IUKoGVn_Sg6fv8" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Avengers- The Endgame
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.3</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>180 mins</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>HD</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>16+</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Avengers: Endgame is the grand conclusion to twenty-two films in the Marvel Cinematic Universe. After Thanos wipes out half of all life in the universe, the remaining Avengers must take one final stand to reverse his actions and restore balance
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="#" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Watch now</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END SLIDE ITEM -->
+            </div>
+        </div>
+    <div>
+        <!-- END HERO SLIDE -->
+        <!-- TOP MOVIES SLIDE -->
+         <div>
+        <div class="top-movies-slide">
+            <div class="owl-carousel" id="top-movies-slide">
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="https://www.themoviedb.org/t/p/original/1leI0n5Sn9cok6oX6yzhS3xMDi2.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Supergirl
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM -->
+                 <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="https://www.themoviedb.org/t/p/original/ayJFOKYGcSTJTVaOf7qeVmuka97.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Thor
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>7.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END MOVIE ITEM --> 
+                <!-- MOVIE ITEM -->
+                <div class="movie-item">
+                    <img src="https://www.themoviedb.org/t/p/original/cECe0r33FHZquEQ7TirjKr3Fddi.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Captain Marvel
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="movie-item">
+                    <img src="https://www.themoviedb.org/t/p/original/nb8guvTCSowzGjmHo67lzODARPx.jpg" alt="">
+                    <div class="movie-item-content">
+                        <div class="movie-item-title">
+                            Wanda Vision
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>120 mins</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+        </div>
+        </div>
+     <div >          
+    <!-- END PRICING SECTION -->
+     <!--about section-->
+    <section id="about">
+        <h2>About the Movie</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="https://th.bing.com/th/id/OIP.Ct8OOUl-438wYAzc4O38vQHaHU?rs=1&pid=ImgDetMain" alt="MARVEL Image">
+            </div>
+            <div class="about-text">
+                    <p id="mcu-description" class="fade-in">
+                        The <strong>Marvel Cinematic Universe (MCU)</strong> is an epic film franchise that brings to life the most iconic superheroes and supervillains from the Marvel Comics. It all began with <em>Iron Man</em> in 2008, introducing audiences to a universe of interconnected stories, larger-than-life characters, and breathtaking adventures.
+                    </p>
+                    <p class="fade-in">
+                        Over the years, the MCU has grown into a cultural phenomenon, featuring over 30 films and numerous TV series that explore themes of heroism, friendship, sacrifice, and the fight for justice. From the assembling of the <strong>Avengers</strong> to the intergalactic battles with <strong>Thanos</strong>, the MCU has kept fans at the edge of their seats.
+                    </p>
+                    <p class="fade-in">
+                        With each new phase, the MCU continues to expand, bringing in fresh faces, new stories, and unforgettable moments that keep us excited for what’s next. Whether you're a fan of the mighty <em>Thor</em>, the resilient <em>Black Widow</em>, or the genius of <em>Doctor Strange</em>, there's a story for everyone in the Marvel Universe.
+                    </p>
+                    <div class="quote-highlight">
+                        <blockquote id="typing-quote">"I am Iron Man." – Tony Stark</blockquote>
+                    </div>
+                </section>
+            
+                <button id="learn-more-btn">Learn More</button>
+                <p id="extra-info" class="hidden">
+                    Did you know? The movie won multiple awards for its groundbreaking special effects and was 
+                    nominated for 19 Academy Awards, including Best Picture. It also sparked a dedicated 
+                    fanbase that continues to celebrate the film decades after its release.
+                </p>
+            </div>
+        </div>
+    </section>
+        </div>
+    <div>
+        <section id="character">
+            <h2>Marvel Characters</h2>
+            <div class="character-card-container">
+                <!-- Character 1: Iron Man -->
+                <div class="character-card fade-in">
+                    <img src="https://artfiles.alphacoders.com/989/98929.jpg" alt="Iron Man" class="character-image">
+                    <div class="character-info">
+                        <h3>Iron Man</h3>
+                        <p class="character-bio">
+                            Tony Stark, a billionaire genius inventor, becomes the armored superhero Iron Man after a life-changing event. Using his intelligence and technological expertise, he protects the world while navigating his own demons.
+                        </p>
+                        <ul class="character-facts">
+                            <li><strong>First Appearance:</strong> Iron Man (2008)</li>
+                            <li><strong>Real Name:</strong> Tony Stark</li>
+                            <li><strong>Weapon of Choice:</strong> Iron Man suit</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Character 2: Captain America -->
+                <div class="character-card fade-in">
+                    <img src="https://th.bing.com/th/id/OIP.jCBic0iFrMuSYqmROgio9AHaKm?rs=1&pid=ImgDetMain" alt="Captain America" class="character-image">
+                    <div class="character-info">
+                        <h3>Captain America</h3>
+                        <p class="character-bio">
+                            Steve Rogers, a frail young man, was transformed into the super-soldier Captain America. With his indestructible shield, he leads the Avengers and defends justice with his unyielding will.
+                        </p>
+                        <ul class="character-facts">
+                            <li><strong>First Appearance:</strong> Captain America: The First Avenger (2011)</li>
+                            <li><strong>Real Name:</strong> Steve Rogers</li>
+                            <li><strong>Weapon of Choice:</strong> Vibranium shield</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                <!-- Character 3: Black Widow -->
+                <div class="character-card fade-in">
+                    <img src=https://th.bing.com/th/id/OIP.nw2eRXvK7zI0_UTYYIkz7wAAAA?rs=1&pid=ImgDetMain" alt="Black Widow" class="character-image">
+                    <div class="character-info">
+                        <h3>Black Widow</h3>
+                        <p class="character-bio">
+                            Natasha Romanoff, also known as Black Widow, is a former KGB operative turned S.H.I.E.L.D. agent. Skilled in martial arts, espionage, and weaponry, she plays a key role in the Avengers' battles.
+                        </p>
+                        <ul class="character-facts">
+                            <li><strong>First Appearance:</strong> Iron Man 2 (2010)</li>
+                            <li><strong>Real Name:</strong> Natasha Romanoff</li>
+                            <li><strong>Special Skills:</strong> Martial arts, espionage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>  
+<div>
+    <section id="trailers">
+         <h2>Marvel Movie Trailers</h2>
+         <div>
+            <div id="search-container">
+                    <input type="text" id="search-input" placeholder="Search for a Marvel movie...">
+                    <button id="search-button">Search</button>
+                </div>
+                <div id="video-container">
+                    <p>Search for a Marvel movie trailer to watch.</p>
+                </div>
+                <div id="trailer-container">
+            <!-- Trailer 1: Iron Man -->
+            <div class="trailer-card">
+                <h3>Iron Man (2008)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/8ugaeA-nMTc"
+                    title="Iron Man Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+    
+            <!-- Trailer 2: The Avengers -->
+            <div class="trailer-card">
+                <h3>The Avengers (2012)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/eOrNdBpGMv8"
+                    title="The Avengers Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+    
+            <!-- Trailer 3: Black Panther -->
+            <div class="trailer-card">
+                <h3>Black Panther (2018)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/xjDjIWPwcPU"
+                    title="Black Panther Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+    
+            <!-- Trailer 4: Guardians of the Galaxy -->
+            <div class="trailer-card">
+                <h3>Guardians of the Galaxy (2014)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/d96cjJhvlMA"
+                    title="Guardians of the Galaxy Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+    
+            <!-- Trailer 5: Spider-Man: Homecoming -->
+            <div class="trailer-card">
+                <h3>Spider-Man: Homecoming (2017)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/n9DwoQ7HWvI"
+                    title="Spider-Man: Homecoming Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+    
+            <!-- Trailer 6: Doctor Strange -->
+            <div class="trailer-card">
+                <h3>Doctor Strange (2016)</h3>
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/HSzx-zryEgM"
+                    title="Doctor Strange Trailer"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            </div>
+        </div>
+    </section>    
+</div>
+<div>
+    <div id="quoteoftheday" class="quote-container">
+        <p id="quote-text" class="quote-text"></p>
+    </div>
+     
+</div>
+<div>
+    <section id="triviaquiz">
+        <h2>Trivia Quiz</h2>
+        <div id="quiz-container">
+            <div id="question-container">
+                <p id="question-text">Loading question...</p>
+                <ul id="options-list">
+                    <li class="option" data-index="0">Option 1</li>
+                    <li class="option" data-index="1">Option 2</li>
+                    <li class="option" data-index="2">Option 3</li>
+                    <li class="option" data-index="3">Option 4</li>
+                </ul>
+            </div>
+            <div id="result-container">
+                <p id="result-message"></p>
+                <button id="next-button">Next Question</button>
+            </div>
+        </div>
+    </section>    
+</div>
+    <!-- FOOTER SECTION -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-md-6 col-sm-12">
+                    <div class="content">
+                        <a href="#" class="logo">
+                            <i class='bx bx-movie-play bx-tada main-color'></i>Fl<span class="main-color">i</span>x
+                        </a>
+                        <p>
+                            The reviews and opinions expressed on movie central are those of the authors and do not necessarily reflect our views. We use clips and images from movies for review and commentary purposes under fair use laws.
+                        </p>
+                        <div class="social-list">
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="#" class="social-item">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-md-6 col-sm-12">
+                    <div class="row">
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Flix</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Browse</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Help</b></p>
+                                <ul class="footer-menu">
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">My profile</a></li>
+                                    <li><a href="#">Pricing plans</a></li>
+                                    <li><a href="#">Contacts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-6 col-sm-6">
+                            <div class="content">
+                                <p><b>Download app</b></p>
+                                <ul class="footer-menu">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/google-play.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/app-store.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
+
+    <!-- COPYRIGHT SECTION -->
+    <div class="copyright">
+        Copyright 2024 
+    </div>
+    <!-- END COPYRIGHT SECTION -->
+
+    <!-- SCRIPT -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+    <!-- APP SCRIPT -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
